@@ -1,0 +1,35 @@
+h1{
+   font-size: 40px;
+    text-align: center;
+}
+body{
+    background-image:url('../images/wallpaper.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    font-size: 20px;
+}
+#h1{
+    width: 220px;
+    height: 220px;
+    margin-left: 520px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.h1_1{
+    color: aqua;
+}
+.h1_2{
+    color: blueviolet;
+}
+#p_1{
+color: chartreuse;
+}
+#p_2{
+    color: beige;
+}
+.link_1{
+    color: darkgreen;
+    cursor: alias;
+}
