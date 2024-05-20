@@ -16,7 +16,7 @@ body{
 form{
     margin: 100px 0;
     padding: 18px;
-   background-image: url('../images/background_form.jpg');
+   background-image: url('images/background_form.jpg');
    background-size: cover;
     box-shadow: 0 0 20px 0 rgba(237, 234, 234, 0.2), 0 5px 5px 0 rgba(247, 244, 244, 0.24);
 }
@@ -34,7 +34,7 @@ input[type="email"],
 input[type="password"],
 input[type="number"],
 textarea{
-background-image: url('../images/input_background.jpg');
+background-image: url('images/input_background.jpg');
 background-size: cover;
 margin-top: 5px;
 padding: 5px;
@@ -46,7 +46,8 @@ input[type="submit"] {
 cursor: pointer;
 width: 100%;
 border: none;
-background: #000;
+background-image: url('images/input_background.jpg');
+background-size: cover;
 color: #FFF;
 margin: 0 0 5px;
 padding: 10px;
